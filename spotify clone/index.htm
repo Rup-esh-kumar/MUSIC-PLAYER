@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify -Your favourite music is here </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav>
+        <ul>
+        <li class="brand"> <img src="logo.png" alt="spotify"> Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Best of songs : Song, Jo Ho Aapko Pasand  </h1>
+            <div class="songitemcontainer">
+                <div class="songitem" id="0">
+                    <img  alt="1">
+                    <span class="songname"></span>
+                    <span class="vb"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songitemplay fas fa-play"></i></span>
+                </div>
+                <div class="songitem" id="1">
+                    <img  alt="1">
+                    <span class="songname"></span>
+                    <span class="vb"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songitemplay fas fa-play"></i></span>
+                </div>
+                <div class="songitem" id="2">
+                    <img  alt="1">
+                    <span class="songname">Let me Love You</span>
+                    <span class="vb"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songitemplay fas fa-play"></i></span>
+                </div>
+                <div class="songitem" id="3">
+                    <img  alt="1">
+                    <span class="songname"></span>
+                    <span class="vb"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songitemplay fas fa-play"></i></span>
+                </div>
+                <div class="songitem" id="4">
+                    <img  alt="1">
+                    <span  class="songname"></span>
+                    <span class="vb"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songitemplay fas fa-play"></i></span>
+                </div>
+                <div class="songitem" id="5">
+                    <img  alt="1">
+                    <span class="songname"></span>
+                    <span class="vb"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songitemplay fas fa-play"></i></span>
+                </div>
+                <div class="songitem" id="6">
+                    <img  alt="1">
+                    <span class="songname"></span>
+                    <span class="vb"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songitemplay fas fa-play"></i></span>
+                </div>
+                <div class="songitem" id="7">
+                    <img  alt="1">
+                    <span class="songname"></span>
+                    <span class="vb"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songitemplay fas fa-play"></i></span>
+                </div>
+                <div class="songitem" id="8">
+                    <img  alt="1">
+                    <span class="songname"></span>
+                    <span class="vb"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songitemplay fas fa-play"></i></span>
+                </div>
+                <div class="songitem" id="9">
+                    <img  alt="1">
+                    <span class="songname"></span>
+                    <span class="vb"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i class="songitemplay fas fa-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fas fa-3x fa-backward-step" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <span class="songinfo"> 
+            <img src="playing.gif" id="gif" > <span id="bottomSongName"></span>
+        </span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
